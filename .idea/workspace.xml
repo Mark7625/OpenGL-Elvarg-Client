@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b961a81-65be-4e74-a915-86ee0b0b9e93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_runelite_jocl_jocl_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_jopt_simple_jopt_simple_5_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_linux_amd64_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_linux_i586_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_windows_amd64_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_gluegen_gluegen_rt_natives_windows_i586_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_jogl_jogl_all_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_jogl_jogl_all_natives_linux_amd64_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_jogl_jogl_all_natives_linux_i586_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_jogl_jogl_all_natives_windows_amd64_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jogamp_jogl_jogl_all_natives_windows_i586_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Delirium_Client.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Delirium_Client.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Elvarg_Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Elvarg_Client.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Elvarg_Client.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/GameApplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/GameFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/GameWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/BufferedFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/FileArchive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/FileOnDisk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/FileStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/JFS32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/ResourceProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/anim/Animation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/anim/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/anim/FrameBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/anim/Graphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/bzip/BZip2DecompressionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/bzip/BZip2Decompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/config/VariableBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/config/VariablePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/def/FloorDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/def/ItemDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/def/NpcDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/def/ObjectDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/DropdownMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/GameFont.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/IndexedImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/RSFont.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/Slider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/sprite/Sprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/sprite/SpriteCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/sprite/SpriteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/widget/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/widget/OSRSCreationMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/widget/SettingsWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/cache/graphics/widget/Widget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/collection/Cacheable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/collection/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/collection/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/collection/Linkable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/collection/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/collection/ReferenceCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/draw/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/draw/ProducingGraphicsBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/draw/Rasterizer2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/draw/Rasterizer3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/draw/WheelOfFortune.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/draw/skillorbs/SkillOrb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/draw/skillorbs/SkillOrbs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/draw/teleports/HierarchyOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/draw/teleports/ParentHierarchyOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/draw/teleports/TeleportButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/draw/teleports/TeleportChatBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/entity/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/entity/GroundItemTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/entity/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/entity/Mob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/entity/Npc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/entity/Renderable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/entity/model/IdentityKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/entity/model/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/entity/model/ModelHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/entity/model/VertexNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/hashtable/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/hashtable/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/hashtable/NodeCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/hashtable/NodeChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/hashtable/NodeDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/hashtable/NodeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/hashtable/NodeQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/io/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/io/PacketConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/io/PacketSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/model/ChatCrown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/model/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/model/DonatorRights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/model/EffectTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/model/GameItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/model/PlayerRights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/model/content/Keybinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/net/BufferedConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/net/IsaacCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/net/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/AnimableObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/CollisionMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/MapRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/Projectile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/SceneCluster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/SceneGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/SceneObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/object/GroundDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/object/SpawnedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/object/WallDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/object/WallObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/object/tile/ShapedTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/object/tile/SimpleTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/scene/object/tile/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/sign/SignLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/sound/Envelope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/sound/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/sound/SoundConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/sound/SoundPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/sound/Synthesizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/sound/Track.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/ChatMessageCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/ChunkUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/ErrorTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/LoggerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/MessageCensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/MiscUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/MouseDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/NativeMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/SecondsTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/SkillConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/Stopwatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/SystemUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/Unzip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/zip/BZip2Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/zip/BZip2Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/zip/BZip2Decompressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/zip/BZip2Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/zip/BZip2InputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/zip/BZip2OutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/zip/Bzip2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/zip/CRC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/runescape/util/zip/Rand.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Elvarg Client" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Elvarg Client" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Script" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Object" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iRFZVJeiT1MoT7uhAeCDAvBKmq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Kotlin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Home\Desktop\Programming\OPENGL ELVARG\OpenGL-Elvarg-Client\src\main\java\com\runescape" />
+      <recent name="C:\Users\Home\Desktop\Programming\OPENGL ELVARG\OpenGL-Elvarg-Client" />
+      <recent name="C:\Users\Home\Desktop\Programming\Elvarg_Kotlin\Elvarg_Client_Kotlin\src\main\java" />
+      <recent name="C:\Users\Home\Desktop\Programming\Elvarg_Kotlin\Elvarg_Client_Kotlin\src\main\kotlin\com\runescape\cache" />
+      <recent name="C:\Users\Home\Desktop\Programming\Elvarg_Kotlin\Elvarg_Client_Kotlin\src\main\kotlin\com\runescape\cache\defs" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.runescape.cache.defs" />
+      <recent name="com.runescape.cache.impl" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.runescape.draw" />
+      <recent name="com.runescape" />
+      <recent name="com.runescape.cache" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.runescape" />
+      <recent name="com.runescape.cache" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Home\Desktop\Programming\Elvarg_Kotlin\Elvarg_Client_Kotlin\src\main\kotlin\com.runescape" />
+      <recent name="C:\Users\Home\Desktop\Elvarg_Kotlin\Elvarg_Client_Kotlin\src\main\resources" />
+      <recent name="C:\Users\Home\Desktop\Elvarg_Kotlin\Elvarg_Client_Kotlin\src\main\kotlin\com\runescape\utils\zip" />
+      <recent name="C:\Users\Home\Desktop\Elvarg_Kotlin\Elvarg_Client_Kotlin\images" />
+      <recent name="C:\Users\Home\Desktop\Elvarg_Kotlin\Elvarg_Client_Kotlin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GameWindow">
+    <configuration name="GameWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.runescape.GameWindow" />
+      <module name="Elvarg_Client_Kotlin.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.runescape.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Elvarg_Client_Kotlin [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Elvarg_Client_Kotlin [jacocoTestCoverageVerification]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jacocoTestCoverageVerification" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Elvarg_Client_Kotlin [ktlintFormat]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="ktlintFormat" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="com.runescape.ClientKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Elvarg_Client_Kotlin.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.runescape.ClientKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameWindow" />
+        <item itemvalue="Gradle.Elvarg_Client_Kotlin [ktlintFormat]" />
+        <item itemvalue="Kotlin.com.runescape.ClientKt" />
+        <item itemvalue="Gradle.Elvarg_Client_Kotlin [check]" />
+        <item itemvalue="Gradle.Elvarg_Client_Kotlin [jacocoTestCoverageVerification]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b961a81-65be-4e74-a915-86ee0b0b9e93" name="Default Changelist" comment="" />
+      <created>1601862552056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601862552056</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="528" y="258" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1613117561720">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="528" y="258" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1360.738@0.0.1360.738" timestamp="1613117561720" />
+    <state x="460" y="124" key="FileChooserDialogImpl" timestamp="1613118355308">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="460" y="124" key="FileChooserDialogImpl/0.0.1360.738@0.0.1360.738" timestamp="1613118355308" />
+    <state x="376" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1613117555242">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="376" y="193" key="com.intellij.ide.util.TipDialog/0.0.1360.738@0.0.1360.738" timestamp="1613117555242" />
+  </component>
+</project>
